@@ -1,0 +1,54 @@
+{
+  "dots": [
+    {
+      "x": 5,
+      "y": 0,
+      "clk": "clockwise",
+      "target": 4
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "clk": "counterclockwise",
+      "target": 9
+    },
+    {
+      "x": 100,
+      "y": 0,
+      "clk": "counterclockwise",
+      "target": 10
+    },
+    {
+      "x": 50,
+      "y": 0,
+      "clk": "clockwise",
+      "target": 17
+    },
+    {
+      "x": 50,
+      "y": 100,
+      "clk": "clockwise",
+      "target": null
+    },
+    {
+      "x": 100,
+      "y": 100,
+      "clk": "counterclockwise",
+      "target": null
+    },
+    {
+      "x": 0,
+      "y": 50,
+      "clk": "clockwise",
+      "target": null
+    }
+  ],
+  "switches": {
+    "items": [
+      4,
+      9,
+      10,
+      17
+    ]
+  }
+}

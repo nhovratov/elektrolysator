@@ -1,0 +1,74 @@
+{
+  "dots": [
+    {
+      "x": 5,
+      "y": 0,
+      "clk": "clockwise",
+      "target": 4
+    },
+    {
+      "x": 0,
+      "y": 100,
+      "clk": "counterclockwise",
+      "target": 9
+    },
+    {
+      "x": 55,
+      "y": 0,
+      "clk": "counterclockwise",
+      "target": 14
+    },
+    {
+      "x": 0,
+      "y": 10,
+      "clk": "clockwise",
+      "target": 13
+    },
+    {
+      "x": 85,
+      "y": 0,
+      "clk": "clockwise",
+      "target": 5
+    },
+    {
+      "x": 100,
+      "y": 75,
+      "clk": "counterclockwise",
+      "target": 10
+    },
+    {
+      "x": 50,
+      "y": 100,
+      "clk": "clockwise",
+      "target": null
+    },
+    {
+      "x": 100,
+      "y": 100,
+      "clk": "counterclockwise",
+      "target": null
+    },
+    {
+      "x": 0,
+      "y": 50,
+      "clk": "clockwise",
+      "target": null
+    },
+    {
+      "x": 75,
+      "y": 100,
+      "clk": "counterclockwise",
+      "target": null
+    }
+  ],
+  "switches": {
+    "items": [
+      4,
+      9,
+      14,
+      13,
+      5,
+      10
+    ]
+  }
+}
