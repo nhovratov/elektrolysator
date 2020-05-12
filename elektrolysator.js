@@ -9,7 +9,7 @@ const RATIO = 0.8;
 const SPEED_NORMAL = 5;
 const FPS = 60;
 const CLOCKWISE = 'clockwise';
-const VERTICAL_CLASS = 'switch--vertical';
+const HORIZONTAL_CLASS = 'switch--horizontal';
 
 var SPEED;
 var gameStarted = false;
@@ -355,8 +355,8 @@ function checkCollision(dot) {
         dotRect.y < targetRect.y + targetRect.height &&
         dotRect.y + dotRect.height > targetRect.y
     ) {
-        var vertical = switchItem.dom.classList.contains(VERTICAL_CLASS);
-        if ((switchInfo.line < 4 && vertical) || (switchInfo.line > 3 && !vertical)) {
+        var horizontal = switchItem.dom.classList.contains(HORIZONTAL_CLASS);
+        if ((switchInfo.line < 4 && !horizontal) || (switchInfo.line > 3 && horizontal)) {
             switchItem.dom.remove();
             dot.dom.remove();
             counter += 1;
@@ -390,7 +390,7 @@ getLevel(1, () => {});
 document.body.addEventListener('click', function () {
     if (gameStarted) {
         switches.items.forEach(function (item) {
-            switches[item].dom.classList.toggle(VERTICAL_CLASS);
+            switches[item].dom.classList.toggle(HORIZONTAL_CLASS);
         });
     }
 });
