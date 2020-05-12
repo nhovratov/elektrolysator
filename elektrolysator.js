@@ -386,7 +386,7 @@ function finishGame() {
         item.dom.classList.add('dot--winning');
     });
     gameStarted = false;
-    SPEED = 20;
+    SPEED = 15;
 }
 
 function failGame() {
