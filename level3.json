@@ -1,0 +1,141 @@
+{
+  "dots": [
+    {
+      "x": 100,
+      "y": 62,
+      "clk": "clockwise",
+      "target": 17
+    },
+    {
+      "x": 50,
+      "y": 0,
+      "clk": "cclockwise",
+      "target": 1
+    },
+    {
+      "x": 0,
+      "y": 80,
+      "clk": "clockwise",
+      "target": 10
+    },
+    {
+      "x": 100,
+      "y": 75,
+      "clk": "clockwise",
+      "target": 9
+    },
+    {
+      "x": 0,
+      "y": 20,
+      "clk": "clockwise",
+      "target": 4
+    },
+    {
+      "x": 10,
+      "y": 100,
+      "clk": "clockwise",
+      "target": 11
+    },
+    {
+      "x": 30,
+      "y": 0,
+      "clk": "clockwise",
+      "target": 13
+    },
+    {
+      "x": 100,
+      "y": 50,
+      "clk": "clockwise",
+      "target": 5
+    },
+    {
+      "x": 40,
+      "y": 0,
+      "clk": "cclockwise",
+      "from": "left",
+      "target": 16
+    },
+    {
+      "x": 25,
+      "y": 100,
+      "clk": "cclockwise",
+      "target": 12
+    },
+    {
+      "x": 52,
+      "y": 100,
+      "clk": "cclockwise",
+      "target": 7
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "clk": "cclockwise",
+      "target": 8
+    },
+    {
+      "x": 75,
+      "y": 0,
+      "clk": "clockwise",
+      "target": null
+    },
+    {
+      "x": 100,
+      "y": 20,
+      "clk": "clockwise",
+      "target": null
+    },
+    {
+      "x": 85,
+      "y": 100,
+      "clk": "clockwise",
+      "target": null
+    },
+    {
+      "x": 40,
+      "y": 100,
+      "clk": "clockwise",
+      "target": null
+    },
+    {
+      "x": 0,
+      "y": 50,
+      "clk": "cclockwise",
+      "target": null
+    },
+    {
+      "x": 0,
+      "y": 25,
+      "clk": "cclockwise",
+      "target": null
+    },
+    {
+      "x": 38,
+      "y": 0,
+      "clk": "cclockwise",
+      "target": null
+    },
+    {
+      "x": 100,
+      "y": 90,
+      "clk": "cclockwise",
+      "target": null
+    }
+  ],
+  "switches": {
+    "items": [
+      17,
+      1,
+      10,
+      9,
+      4,
+      11,
+      13,
+      5,
+      16,
+      12,
+      7,
+      8
+    ]
+  }
+}
