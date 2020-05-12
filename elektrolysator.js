@@ -6,7 +6,7 @@ const TOP = 'top';
 const BOTTOM = 'bottom';
 const LINERATIO = 0.2;
 const RATIO = 0.8;
-const SPEED_NORMAL = 5;
+const SPEED_NORMAL = 2;
 const FPS = 60;
 const CLOCKWISE = 'clockwise';
 const HORIZONTAL_CLASS = 'switch--horizontal';
@@ -299,14 +299,26 @@ function getDotDirection(dot) {
         var target = SWITCH_MAP[dot.target];
         if (target.line > 3) {
             target.y = linePoints[target.line - 1];
-            if (target.position > 2) {
+            if (typeof dot.from !== "undefined") {
+                if (dot.from === "left") {
+                    target.x = 0;
+                } else {
+                    target.x = data.x;
+                }
+            } else if (target.position > 2) {
                 target.x = data.x;
             } else {
                 target.x = 0;
             }
         } else {
             target.x = linePoints[target.line - 1];
-            if (target.position > 1) {
+            if (typeof dot.from !== "undefined") {
+                if (dot.from === "top") {
+                    target.y = 0;
+                } else {
+                    target.y = data.y;
+                }
+            } else if (target.position > 1) {
                 target.y = data.y;
             } else {
                 target.y = 0;
