@@ -6,13 +6,19 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <select>
-        <option value="1">Level 1</option>
-        <option value="2">Level 2</option>
-        <option value="3">Level 3</option>
-    </select>
-    <button class="start">Start</button>
     <div id="app"></div>
+    <div class="game-help">
+        <p class="game-help">Tipp: Klicke mit der Maus, um die Schalter rechtzeitig in die richtige Position zu drehen.</p>
+        <div class="game-controls">
+            <div>Levelauswahl:</div>
+            <select class="level-select">
+                <option value="1">Level 1</option>
+                <option value="2">Level 2</option>
+                <option value="3">Level 3</option>
+            </select>
+            <button class="start">Start</button>
+        </div>
+    </div>
     <script src="elektrolysator.js"></script>
 </body>
 </html>

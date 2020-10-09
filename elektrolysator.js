@@ -116,7 +116,8 @@
     };
 
     function startGame() {
-        var level = document.querySelector('select').value;
+        toggleUi();
+        var level = document.querySelector('.level-select').value;
         getLevel(level, function () {
             gameStarted = true;
             drawDots();
@@ -393,6 +394,7 @@
     }
 
     function finishGame() {
+        toggleUi();
         dots.forEach(function (item) {
             item.dom.classList.add('dot--winning');
         });
@@ -401,10 +403,20 @@
     }
 
     function failGame() {
+        toggleUi();
         dots.forEach(function (item) {
             item.dom.classList.add('dot--failing');
         });
         gameStarted = false;
+    }
+
+    function toggleUi() {
+        var ui = document.querySelector('.game-help');
+        if (ui.style.display === 'none') {
+            ui.style.display = 'block';
+        } else {
+            ui.style.display = 'none';
+        }
     }
 
     drawBoard();
